@@ -1,0 +1,18 @@
+/* Small custom animations and helpers */
+.fade-in {
+	animation: fadeIn 320ms ease both;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(-6px); }
+	to   { opacity: 1; transform: translateY(0); }
+}
+
+.list-enter {
+	animation: enter 280ms ease both;
+}
+
+@keyframes enter {
+	from { opacity: 0; transform: translateY(6px) scale(.98); }
+	to   { opacity: 1; transform: translateY(0) scale(1); }
+}
