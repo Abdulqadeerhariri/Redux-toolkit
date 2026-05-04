@@ -4,3 +4,33 @@
 html, body, #root {
 	height: 100%;
 }
+
+/* Custom styles for parsed HTML content */
+.prose-invert {
+	color: #ffffff;
+}
+
+.prose-invert h1, .prose-invert h2, .prose-invert h3, .prose-invert h4, .prose-invert h5, .prose-invert h6 {
+	color: #ffffff;
+}
+
+.prose-invert p {
+	color: #d1d5db;
+	line-height: 1.75;
+}
+
+.prose-invert a {
+	color: #60a5fa;
+	text-decoration: underline;
+}
+
+.prose-invert ul, .prose-invert ol {
+	color: #d1d5db;
+}
+
+.prose-invert blockquote {
+	border-left: 4px solid #374151;
+	padding-left: 1rem;
+	color: #9ca3af;
+	font-style: italic;
+}

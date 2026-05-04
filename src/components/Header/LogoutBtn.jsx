@@ -13,9 +13,12 @@ const LogoutBtn = () => {
 
 
   return (
-    <button className='inline-bock px-6 py-2 duration-200 hover:bg-blue-100 rounded-full'
+    <button 
+      className='px-4 py-2 text-white hover:text-red-400 transition-colors duration-200 font-medium'
       onClick={logoutHandler}
-    >Logout</button>
+    >
+      Logout
+    </button>
   )
 }
 
